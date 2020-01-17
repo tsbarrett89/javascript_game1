@@ -126,9 +126,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-h1 {
-  font-size: 400px;
-}
-html {
-  background-color: red;
+.gameboard {
+  display: grid;
+  grid-template-column: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
